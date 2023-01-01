@@ -1,0 +1,142 @@
+*{
+  font-family: Noto Sans;
+  margin:0;
+  transition: all 0.25s;
+}
+
+/*--------------------NAME SECTION-------------------*/
+#test_name{
+  margin-left:1rem;
+  margin-top: 1rem;
+  display:flex;
+}
+#icon{
+  border-right: green 3px solid;
+  padding-right: 1rem;
+}
+#name{
+  padding-left: 1rem;
+}
+
+/*-------------CLOCK SECTION-------------------------*/
+#clock_section{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5%;
+  width: fit-content;
+}
+
+#end{
+  padding:10px 10px;
+  border: none;
+  background-color: rgb(10, 230, 10);
+  border-radius: 5px;
+}
+#end:hover{
+  cursor: pointer;
+  opacity: 0.75;
+}
+#end:active{
+  opacity: 0.5;
+}
+
+/*---------QUES SECTION-----------------*/
+#list_question{
+  height: 5rem;
+  padding-top: 1rem;
+  padding-bottom:1rem;
+  position: fixed;
+  right: 0;
+  left:0;
+  bottom:0;
+  width: 100%;
+  background-color: gray;
+  line-height: 2.5rem;
+}
+#num_ques{
+  background-color: white;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+#num_ques:hover{
+  cursor: pointer;
+}
+#num_ques:focus{
+  background-color: rgb(80, 255, 80);
+  outline: none;
+}
+
+/*----------QUESTIONS-----------*/
+#ques{
+  width: 500px;
+}
+#ques_img{
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  overflow: auto;
+  width:34rem;
+  height:25rem;
+  border: gray 3px solid;
+  z-index: -1;
+}
+
+/*-----------FINISH ANNOUNCEMENT-----------------------*/
+#finish_announcement{
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  border: #58AC30 3px solid;
+  box-shadow: 5px 5px rgba(0,0,0,0.5);
+  position: relative;
+  left:30%;
+  text-align: center;
+  line-height: 4rem;
+  display: none;
+}
+#myCanvas{
+  background-color: white;
+  position: absolute;
+  top:0;
+  right:0;
+}
+#myCanvas:hover{
+  cursor: pointer;
+}
+#incorrect{
+  display:none;
+}
+#mark{
+  font-size: 50px;
+  color:#58AC30;
+  font-weight: bold;
+}
+#nx{
+  font-size: 24px;
+}
+#detail:hover{
+  color:orange;
+  cursor: pointer;
+}
+#incorrect{
+  width: 500px;
+  height: 200px;
+  border: #58AC30 3px solid;
+  background-color: white;
+  position: relative;
+  left:30%;
+  box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+#header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,800&family=Roboto:wght@400;500;700&family=Vollkorn:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+  <div id="test_name">
+    <div id="icon">
+      <p style="font-size:36.1px"><span style="font-weight: 700;color:#58AC30;">Uni</span><span style="font-weight:400;color:#77C839;">Test</span></p>
+      <p style="font-size:9.2px;color:#67AC34;">Coded by soul • designed by wind</p>
+    </div>
+    <div id="name">
+      Đề thi đánh giá năng lực
+    </div>
+  </div>
+  <div id="clock_section">
+    <img src="clock.jpg" style="width:3rem;" alt="">
+    <p id="time">02:30:00</p>
+    <button id="end" style="margin-left:1rem">nộp bài</button>
+  </div>
+   <div id="list_question">
+    <div id="input_container">
+      <input id="num_ques" class="so1" placeholder="1"></input>
+      <input id="num_ques" class="so2" placeholder="2"></input>
+      <input id="num_ques" class="so3" placeholder="3"></input>
+      <input id="num_ques" class="so4" placeholder="4"></input>
+      <input id="num_ques" class="so5" placeholder="5"></input>
+      <input id="num_ques" class="so6" placeholder="6"></input>
+      <input id="num_ques" class="so7" placeholder="7"></input>
+      <input id="num_ques" class="so8" placeholder="8"></input>
+      <input id="num_ques" class="so9" placeholder="9"></input>
+      <input id="num_ques" class="so10" placeholder="10"></input>
+      <input id="num_ques" class="so11" placeholder="11"></input>
+      <input id="num_ques" class="so12" placeholder="12"></input>
+      <input id="num_ques" class="so13" placeholder="13"></input>
+      <input id="num_ques" class="so14" placeholder="14"></input>
+      <input id="num_ques" class="so15" placeholder="15"></input>
+      <input id="num_ques" class="so16" placeholder="16"></input>
+      <input id="num_ques" class="so17" placeholder="17"></input>
+      <input id="num_ques" class="so18" placeholder="18"></input>
+      <input id="num_ques" class="so19" placeholder="19"></input>
+      <input id="num_ques" class="so20" placeholder="20"></input>
+      <input id="num_ques" class="so21" placeholder="21"></input>
+      <input id="num_ques" class="so22" placeholder="22"></input>
+      <input id="num_ques" class="so23" placeholder="23"></input>
+      <input id="num_ques" class="so24" placeholder="24"></input>
+      <input id="num_ques" class="so25" placeholder="25"></input>
+      <input id="num_ques" class="so26" placeholder="26"></input>
+      <input id="num_ques" class="so27" placeholder="27"></input>
+      <input id="num_ques" class="so28" placeholder="28"></input>
+      <input id="num_ques" class="so29" placeholder="29"></input>
+      <input id="num_ques" class="so30" placeholder="30"></input>
+      <!-- <input id="num_ques" class="so31" placeholder="31"></input>
+      <input id="num_ques" class="so32" placeholder="32"></input>
+      <input id="num_ques" class="so33" placeholder="33"></input>
+      <input id="num_ques" class="so34" placeholder="34"></input>
+      <input id="num_ques" class="so35" placeholder="35"></input>
+      <input id="num_ques" class="so36" placeholder="36"></input>
+      <input id="num_ques" class="so37" placeholder="37"></input>
+      <input id="num_ques" class="so38" placeholder="38"></input>
+      <input id="num_ques" class="so39" placeholder="39"></input>
+      <input id="num_ques" class="so40" placeholder="40"></input>
+      <input id="num_ques" class="so41" placeholder="41"></input>
+      <input id="num_ques" class="so42" placeholder="42"></input>
+      <input id="num_ques" class="so43" placeholder="43"></input>
+      <input id="num_ques" class="so44" placeholder="44"></input>
+      <input id="num_ques" class="so45" placeholder="45"></input>
+      <input id="num_ques" class="so46" placeholder="46"></input>
+      <input id="num_ques" class="so47" placeholder="47"></input>
+      <input id="num_ques" class="so48" placeholder="48"></input>
+      <input id="num_ques" class="so49" placeholder="49"></input>
+      <input id="num_ques" class="so50" placeholder="50"></input> -->
+    </div>
+  </div>
+  <div id="ques_img">
+  <img src="questions/img1.png" alt="" id="ques">
+  <img src="questions/img2.png" alt="" id="ques">
+  <img src="questions/img3.png" alt="" id="ques">
+  <img src="questions/img4.png" alt="" id="ques">
+  <img src="questions/img5.png" alt="" id="ques">
+  <img src="questions/img6.png" alt="" id="ques">
+  </div>
+  <div id="result">
+    <div id="finish_announcement">
+      <p id="mark"></p>
+      <p id="nx">you're doing great</p>
+      <p id="detail" style="display:inline-block">click for more test detail</p>
+      <canvas id="myCanvas" width="25" height="25"></canvas>
+    </div>
+    <div id="incorrect" style="text-align:center">
+      <div id="header">
+        <p>Question Number</p>
+        <p>Your choice</p>
+        <p>Correct answer</p>
+      </div>
+      <div id="content">
+        <p>1</p>
+        <p>B</p>
+        <p>C</p>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
